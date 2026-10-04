@@ -1,0 +1,5 @@
+Response,Hydroclimatic driver,Window (days),Posterior beta,Beta HDI 95% low,Beta HDI 95% high,P(dominant sign),Delta LPD vs shortest,Delta LPD 95% CI low,Delta LPD 95% CI high
+Electrical conductivity,Precipitation,14,-0.36,-0.457,-0.255,1.0,0.194,0.113,0.275
+Electrical conductivity,Precipitation,60,-0.365,-0.463,-0.266,1.0,0.206,0.098,0.314
+Na,Precipitation,60,-0.317,-0.389,-0.24,1.0,0.231,0.134,0.327
+SO₄,Precipitation,60,-0.497,-0.623,-0.37,1.0,0.201,0.069,0.334

@@ -1,0 +1,51 @@
+Response,Interpretation role,Hydroclimatic driver,Frozen classification,Manuscript classification,Direction of jointly supported effect,Descriptive best window (days; not memory estimate),Posterior-supported windows,Predictive-plateau windows,Joint-supported windows,Joint-supported set/range,Strict antecedent-memory windows,Strict antecedent-memory set/range,Joint support contiguous,Memory support contiguous
+Electrical conductivity,HYDROCHEMICAL_RESPONSE,Air temperature,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,90,90,90,90,90 d,,,True,True
+Electrical conductivity,HYDROCHEMICAL_RESPONSE,Potential evaporation,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,90,,"7,14,30,60,90",,,,,True,True
+Electrical conductivity,HYDROCHEMICAL_RESPONSE,Precipitation,SUPPORTED_ANTECEDENT_MEMORY,Supported antecedent memory,NEGATIVE,60,"3,7,14,30,60,90","14,60","14,60","{14, 60} d","14,60","{14, 60} d",False,False
+Electrical conductivity,HYDROCHEMICAL_RESPONSE,Root-zone soil moisture,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,7,"1,7,14,30,60,90","7,14,30","7,14,30",7–30 d,,,True,True
+Electrical conductivity,HYDROCHEMICAL_RESPONSE,Surface soil moisture,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,60,"1,7,14,30,60,90","60,90","60,90",60–90 d,,,True,True
+NH₄,HYDROCHEMICAL_RESPONSE,Air temperature,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,POSITIVE,7,"7,14,30,60,90","7,14,30,60,90","7,14,30,60,90",7–90 d,,,True,True
+NH₄,HYDROCHEMICAL_RESPONSE,Potential evaporation,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,POSITIVE,14,"7,14,30,60,90","7,14,30,60,90","7,14,30,60,90",7–90 d,,,True,True
+NH₄,HYDROCHEMICAL_RESPONSE,Precipitation,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,1,,1,,,,,True,True
+NH₄,HYDROCHEMICAL_RESPONSE,Root-zone soil moisture,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,90,,90,,,,,True,True
+NH₄,HYDROCHEMICAL_RESPONSE,Surface soil moisture,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,90,90,90,90,90 d,,,True,True
+Na,HYDROCHEMICAL_RESPONSE,Air temperature,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,90,"7,90",90,90,90 d,,,True,True
+Na,HYDROCHEMICAL_RESPONSE,Potential evaporation,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,14,,"7,14,30,60,90",,,,,True,True
+Na,HYDROCHEMICAL_RESPONSE,Precipitation,SUPPORTED_ANTECEDENT_MEMORY,Supported antecedent memory,NEGATIVE,60,"3,7,14,30,60,90",60,60,60 d,60,60 d,True,True
+Na,HYDROCHEMICAL_RESPONSE,Root-zone soil moisture,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,14,"1,7,14,30,60,90","7,14,30","7,14,30",7–30 d,,,True,True
+Na,HYDROCHEMICAL_RESPONSE,Surface soil moisture,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,60,"1,7,14,30,60,90",60,60,60 d,,,True,True
+SO₄,HYDROCHEMICAL_RESPONSE,Air temperature,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,90,90,90,90,90 d,,,True,True
+SO₄,HYDROCHEMICAL_RESPONSE,Potential evaporation,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,7,,"7,14,30,60,90",,,,,True,True
+SO₄,HYDROCHEMICAL_RESPONSE,Precipitation,SUPPORTED_ANTECEDENT_MEMORY,Supported antecedent memory,NEGATIVE,60,"1,3,7,14,30,60,90",60,60,60 d,60,60 d,True,True
+SO₄,HYDROCHEMICAL_RESPONSE,Root-zone soil moisture,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,7,"1,7,14,30,60,90","7,14","7,14",7–14 d,,,True,True
+SO₄,HYDROCHEMICAL_RESPONSE,Surface soil moisture,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,60,"1,7,14,30,60,90","60,90","60,90",60–90 d,,,True,True
+pH,HYDROCHEMICAL_RESPONSE,Air temperature,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,30,,"30,90",,,,,True,True
+pH,HYDROCHEMICAL_RESPONSE,Potential evaporation,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,POSITIVE,14,"7,14,30,60","7,14","7,14",7–14 d,,,True,True
+pH,HYDROCHEMICAL_RESPONSE,Precipitation,SHORT_STATE_RESPONSE,Short-state / no incremental antecedent advantage,NEGATIVE,60,"1,3,7,14,30,60,90","1,14,60,90","1,14,60,90","{1, 14, 60, 90} d",,,False,True
+pH,HYDROCHEMICAL_RESPONSE,Root-zone soil moisture,SHORT_STATE_RESPONSE,Short-state / no incremental antecedent advantage,NEGATIVE,1,"1,7,14,30,60,90","1,7,14,30,60,90","1,7,14,30,60,90",1–90 d,,,True,True
+pH,HYDROCHEMICAL_RESPONSE,Surface soil moisture,SHORT_STATE_RESPONSE,Short-state / no incremental antecedent advantage,NEGATIVE,90,"1,7,14,30,60,90","1,7,14,30,60,90","1,7,14,30,60,90",1–90 d,,,True,True
+Total coliforms,HYDROCHEMICAL_RESPONSE,Air temperature,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,90,,"7,14,30,60,90",,,,,True,True
+Total coliforms,HYDROCHEMICAL_RESPONSE,Potential evaporation,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,30,,"14,30,60,90",,,,,True,True
+Total coliforms,HYDROCHEMICAL_RESPONSE,Precipitation,SHORT_STATE_RESPONSE,Short-state / no incremental antecedent advantage,POSITIVE,1,1,"1,3,7,14,60,90",1,1 d,,,True,True
+Total coliforms,HYDROCHEMICAL_RESPONSE,Root-zone soil moisture,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,90,,"1,7,14,30,60,90",,,,,True,True
+Total coliforms,HYDROCHEMICAL_RESPONSE,Surface soil moisture,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,90,"14,30","1,7,14,30,60,90","14,30",14–30 d,,,True,True
+Water temperature,THERMAL_RESPONSE_REFERENCE,Air temperature,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,POSITIVE,7,"7,14,30,60,90","7,14,30,60","7,14,30,60",7–60 d,,,True,True
+Water temperature,THERMAL_RESPONSE_REFERENCE,Potential evaporation,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,POSITIVE,14,"7,14,30,60,90","7,14,30,60,90","7,14,30,60,90",7–90 d,,,True,True
+Water temperature,THERMAL_RESPONSE_REFERENCE,Precipitation,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,90,90,"1,3,7,90",90,90 d,,,True,True
+Water temperature,THERMAL_RESPONSE_REFERENCE,Root-zone soil moisture,SUPPORTED_ANTECEDENT_MEMORY,Supported antecedent memory,NEGATIVE,90,"1,7,14,30,60,90",90,90,90 d,90,90 d,True,True
+Water temperature,THERMAL_RESPONSE_REFERENCE,Surface soil moisture,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,90,"14,90",90,90,90 d,,,True,True
+Al,HYDROCHEMICAL_RESPONSE,Air temperature,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,POSITIVE,90,90,90,90,90 d,,,True,True
+Al,HYDROCHEMICAL_RESPONSE,Potential evaporation,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,7,"7,14","7,14,60,90","7,14",7–14 d,,,True,True
+Al,HYDROCHEMICAL_RESPONSE,Precipitation,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,POSITIVE,14,"1,3,7,14,30,60,90",14,14,14 d,,,True,True
+Al,HYDROCHEMICAL_RESPONSE,Root-zone soil moisture,SHORT_STATE_RESPONSE,Short-state / no incremental antecedent advantage,POSITIVE,1,"1,7,14,30,60,90","1,7","1,7",1–7 d,,,True,True
+Al,HYDROCHEMICAL_RESPONSE,Surface soil moisture,SHORT_STATE_RESPONSE,Short-state / no incremental antecedent advantage,POSITIVE,7,"1,7,14,30,60,90","1,7,14,60,90","1,7,14,60,90","{1, 7, 14, 60, 90} d",,,False,True
+Fe,HYDROCHEMICAL_RESPONSE,Air temperature,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,7,,"7,90",,,,,True,True
+Fe,HYDROCHEMICAL_RESPONSE,Potential evaporation,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,7,"60,90","7,14,30",,,,,True,True
+Fe,HYDROCHEMICAL_RESPONSE,Precipitation,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,POSITIVE,90,"1,3,7,14,30,60,90","60,90","60,90",60–90 d,,,True,True
+Fe,HYDROCHEMICAL_RESPONSE,Root-zone soil moisture,SHORT_STATE_RESPONSE,Short-state / no incremental antecedent advantage,POSITIVE,30,"1,7,14,30,60,90","1,7,14,30,60,90","1,7,14,30,60,90",1–90 d,,,True,True
+Fe,HYDROCHEMICAL_RESPONSE,Surface soil moisture,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,POSITIVE,90,"60,90","1,7,14,30,60,90","60,90",60–90 d,,,True,True
+Si,HYDROCHEMICAL_RESPONSE,Air temperature,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,90,90,"7,14,60,90",90,90 d,,,True,True
+Si,HYDROCHEMICAL_RESPONSE,Potential evaporation,NO_ROBUST_SUPPORT,No robust joint support,NO_JOINT_SUPPORT,7,,7,,,,,True,True
+Si,HYDROCHEMICAL_RESPONSE,Precipitation,SHORT_STATE_RESPONSE,Short-state / no incremental antecedent advantage,NEGATIVE,14,"1,3,7,14,30,60,90","1,3,7,14,60,90","1,3,7,14,60,90","{1, 3, 7, 14, 60, 90} d",,,False,True
+Si,HYDROCHEMICAL_RESPONSE,Root-zone soil moisture,SHORT_STATE_RESPONSE,Short-state / no incremental antecedent advantage,NEGATIVE,60,"1,7,14,30,60,90","1,7,14,30,60,90","1,7,14,30,60,90",1–90 d,,,True,True
+Si,HYDROCHEMICAL_RESPONSE,Surface soil moisture,SUPPORTED_TEMPORAL_RESPONSE_RANGE,Supported temporal-response range,NEGATIVE,60,"1,7,14,30,60,90",60,60,60 d,,,True,True

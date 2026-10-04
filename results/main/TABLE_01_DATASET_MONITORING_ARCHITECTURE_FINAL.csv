@@ -1,0 +1,10 @@
+Metric,Value,Definition
+Study campaigns,10,C01–C10; 2023–2026
+Unique master stations,41,Analytical master
+Unique FIELD observations,133,Physical field events
+Unique sample IDs,146,Laboratory/sample identity
+Observed-discharge events,119,Primary discharge architecture
+Primary H3 stream-network stations,32,Geometry-eligible contributing-area population
+Hydroclimate event rows,146,Sample-level hydroclimate calendar
+Unique hydroclimate event dates,93,Distinct temporal states represented by event dates
+Antecedent hydroclimate windows,29,Prespecified candidate-window bank

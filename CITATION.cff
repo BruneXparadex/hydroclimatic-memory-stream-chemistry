@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying frozen analysis products, please cite this repository and the associated manuscript."
+title: "Hydroclimatic memory in stream chemistry: reproducibility workflow"
+type: software
+authors:
+  - family-names: "Cárdenas Morales"
+    given-names: "Bruno Kadafi"
+    orcid: "https://orcid.org/0009-0000-7408-679X"
+version: 1.0.0
+date-released: 2026-10-04
+license: MIT
+keywords:
+  - hydroclimatic memory
+  - stream chemistry
+  - Bayesian modelling
+  - leave-one-campaign-out validation
+  - tropical Andes
